@@ -31,7 +31,7 @@ fun MainScreen(
     navController: NavController, mainViewModel: MainViewModel = hiltViewModel(),
     city: String?
               ) {
-    Log.d("TAG", "MainScreen: $city")
+   // Log.d("TAG", "MainScreen: $city")
 
 
     val weatherData = produceState<DataOrException<Weather, Boolean, Exception>>(
