@@ -29,7 +29,7 @@ class SettingsViewModel @Inject constructor(
                         Log.d("TAG", ":Empty list ")
                     }else {
                         _unitList.value = listOfUnits
-                        // Log.d("FAVS", ": ${unitList.value} ")
+
                     }
 
                 }
